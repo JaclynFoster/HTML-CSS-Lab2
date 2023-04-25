@@ -1,0 +1,52 @@
+#headerParent {
+    background-color: rgb(56, 57, 57);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 145px;
+    z-index: 5;
+}
+
+#bodyParent {
+    position: relative;
+    background-color: whitesmoke;
+    padding-top: 9.5%;
+  display: flex;
+    flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.left{
+  background-color: lightgrey;
+  height: 100vh;
+  width: 15.75vw;
+  position: fixed;
+  left: 0;
+ 
+}
+.center {
+  background-color: whitesmoke;
+  width: 30vw;
+  height: 80vh;
+}
+.right {
+  background-color: lightgray;
+  height: 100vh;
+  width: 15.5vw;
+  position: fixed;
+  right: 0;
+
+}
+
+#footerParent{
+    background-color: rgb(31, 30, 30);
+  width: 69vw;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  display: inline-block;
+  left: 15.55%;
+}
